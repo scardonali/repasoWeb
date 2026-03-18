@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    <h1>Página 2 Ejercicios</h1>
+    <h2>Ejercicio 7</h2>
+    <input type="email" name="" id="correo" onfocus="campo()" onblur="validarCorreo()">
+    <span id="b4">Los correos se escriben con @ y con un .com</span>
+    <br>
+    <br>
+    <h3>Ejercicio 8 (OnFocusOut)</h3>
+    <input type="text" name="" id="x" onfocusout="salirCampoNombre()" placeholder="Escriba su nombre">
+    <span id="z">Hola</span>
+    <h4>Ejercicio 9 verificar contraseña con onfocusout</h4>
+    <input type="password" name="" id="contra" onfocusout="validarContra()">
+    
+    <h4>Ejercicio 10 de eventos y último</h4>
+    <form action="" method="post">
+         <label for="nombre" >Nombre:</label>
+         <input type="text" id="nombre"  onfocus="verificarName()" name="nombre" placeholder="Tu nombre"> 
+         <span id="xd"></span>
+         <label for="correo23">Correo:</label>
+         <input type="text" id="correo23" name="nombre" placeholder="Tu correo">
+         <label for="lenguaje">Lenguaje Favorito:</label>
+         <select name="lenguaje" id="lenguaje">Indique su lenguaje favorito
+
+             <option value="1">java</option>
+             <option value="2">JavaScript</option>
+             <option value="3">Python</option>
+        </select>
+    </form>
+        <h5>Ejercicio de prueba</h5>
+
+        <select id="operacion" onchange="sumar()">
+            <option value="suma">Sumar</option>
+        </select>
+
+        <input type="number" id="numero1">
+        <input type="number" id="numero2">
+
+        <span id="resultado"></span>
+
+    
+    <script src="pruba.js"></script>
+</body>
+</html>
